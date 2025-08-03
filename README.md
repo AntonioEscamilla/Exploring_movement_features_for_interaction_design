@@ -1,6 +1,6 @@
 # Movement-Based Features for Interaction Design: Computational Prototype
 
-This repository contains the computational prototype developed for the research paper **"Exploring a user-centered approach for movement-based features in interaction design"** published in the International Journal of Human-Computer Studies.
+This repository contains the computational prototype developed for the research paper **"Exploring a user-centered approach for movement-based features in interaction design"** submitted to the International Journal of Human-Computer Studies.
 
 ## Overview
 
@@ -148,7 +148,6 @@ If you use this prototype in your research, please cite:
 @article{escamilla2025exploring,
   title={Exploring a user-centered approach for movement-based features in interaction design},
   author={Escamilla, Antonio and Melench{\'o}n, Javier and Monzo, Carlos and Mor{\'a}n, Jose Antonio and Carrascal, Juan Pablo},
-  journal={International Journal of Human-Computer Studies},
   year={2025}
 }
 ```
