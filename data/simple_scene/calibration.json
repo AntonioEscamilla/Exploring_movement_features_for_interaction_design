@@ -1,0 +1,550 @@
+{
+  "cameras": {
+    "cam1": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          864.5431702202912,
+          0.0,
+          878.7619298666499
+        ],
+        [
+          0.0,
+          874.2319545036364,
+          519.6622437567719
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          0.026301415230802466,
+          -0.0033686707235400827,
+          0.0016490076718691615,
+          -0.01794253192740884,
+          -0.053591315030915666
+        ]
+      ]
+    },
+    "cam2": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          856.3865540044003,
+          0.0,
+          940.930488564648
+        ],
+        [
+          0.0,
+          858.5812286995581,
+          492.5788314764186
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          -0.06500261756604261,
+          0.4451732692198753,
+          -0.014376626490640651,
+          0.007028137329814216,
+          -0.9748721631734246
+        ]
+      ]
+    },
+    "cam3": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          842.714711027731,
+          0.0,
+          975.8976618657591
+        ],
+        [
+          0.0,
+          853.2068124314758,
+          560.3603021898829
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          0.00023996393277874914,
+          0.2262324505566906,
+          -0.010774298992006699,
+          0.011075697696014564,
+          -0.8341481529632104
+        ]
+      ]
+    },
+    "cam4": {
+      "model": "standard",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "K": [
+        [
+          853.4750275616832,
+          0.0,
+          856.3887097537952
+        ],
+        [
+          0.0,
+          845.098746719331,
+          507.7090854430986
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dist": [
+        [
+          0.009803879196332086,
+          0.062252831592012434,
+          -0.0027475105552611312,
+          -0.03581184996188104,
+          -0.10332214630314883
+        ]
+      ]
+    }
+  },
+  "camera_poses": {
+    "cam1": {
+      "R": [
+        [
+          1.0,
+          -1.2040956658840265e-37,
+          0.0
+        ],
+        [
+          -1.2839432845179872e-36,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "cam2_to_cam1": {
+      "R": [
+        [
+          -0.9890054828924016,
+          0.016541561266766085,
+          0.14695077937740014
+        ],
+        [
+          0.13798681999643952,
+          0.4605702924353737,
+          0.8768321636626161
+        ],
+        [
+          -0.05317699047555902,
+          0.8874690881810207,
+          -0.45778906191291874
+        ]
+      ],
+      "T": [
+        0.011076394969423973,
+        -2.9723761471810617,
+        5.139486107546533
+      ]
+    },
+    "cam3_to_cam1": {
+      "R": [
+        [
+          -0.12254453285487425,
+          0.5372205620992205,
+          -0.8344920042308246
+        ],
+        [
+          -0.48348301954537015,
+          0.7019948168368803,
+          0.52292202759632
+        ],
+        [
+          0.8667335272612178,
+          0.4675439495833015,
+          0.17371139262977361
+        ]
+      ],
+      "T": [
+        2.9356243071092774,
+        -1.6164895446061092,
+        2.398312218791501
+      ]
+    },
+    "cam4_to_cam1": {
+      "R": [
+        [
+          0.10235826607139388,
+          -0.4939150130626123,
+          0.8634643856223703
+        ],
+        [
+          0.5410601225400948,
+          0.7560360905212427,
+          0.36832509231146965
+        ],
+        [
+          -0.834731531190571,
+          0.4294850284942592,
+          0.34462426080519937
+        ]
+      ],
+      "T": [
+        -2.9661232730603015,
+        -1.3990720216841706,
+        2.735813686441772
+      ]
+    }
+  },
+  "image_sets": {
+    "rgb": [
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image03.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image03.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image03.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image03.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image07.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image07.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image07.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image07.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image09.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image09.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image09.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image09.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image10.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image10.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image10.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image10.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image11.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image11.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image11.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image11.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image13.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image13.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image13.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image13.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image15.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image15.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image15.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image15.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image16.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image16.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image16.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image16.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image17.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image17.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image17.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image17.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image19.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image19.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image19.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image19.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image21.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image21.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image21.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image21.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image22.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image22.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image22.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image22.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image23.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image23.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image23.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image23.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image24.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image24.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image24.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image24.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image25.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image25.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image25.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image25.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image26.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image26.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image26.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image26.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image27.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image27.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image27.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image27.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image28.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image28.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image28.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image28.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image30.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image30.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image30.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image30.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image31.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image31.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image31.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image31.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image32.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image32.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image32.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image32.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image34.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image34.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image34.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image34.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image35.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image35.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image35.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image35.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image36.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image36.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image36.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image36.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image37.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image37.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image37.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image37.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image38.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image38.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image38.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image38.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image39.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image39.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image39.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image39.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image40.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image40.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image40.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image40.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image41.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image41.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image41.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image41.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image42.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image42.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image42.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image42.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image43.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image43.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image43.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image43.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image44.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image44.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image44.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image44.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image45.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image45.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image45.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image45.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image46.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image46.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image46.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image46.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image47.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image47.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image47.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image47.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image49.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image49.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image49.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image49.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image50.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image50.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image50.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image50.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image51.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image51.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image51.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image51.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image52.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image52.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image52.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image52.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image53.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image53.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image53.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image53.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image54.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image54.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image54.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image54.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image55.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image55.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image55.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image55.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image56.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image56.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image56.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image56.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image57.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image57.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image57.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image57.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image58.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image58.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image58.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image58.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image59.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image59.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image59.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image59.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image60.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image60.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image60.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image60.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image64.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image64.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image64.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image64.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image65.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image65.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image65.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image65.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image66.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image66.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image66.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image66.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image67.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image67.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image67.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image67.jpg"
+      },
+      {
+        "cam1": "./calib_images/upb_12\\cam1\\image69.jpg",
+        "cam2": "./calib_images/upb_12\\cam2\\image69.jpg",
+        "cam3": "./calib_images/upb_12\\cam3\\image69.jpg",
+        "cam4": "./calib_images/upb_12\\cam4\\image69.jpg"
+      }
+    ]
+  }
+}
