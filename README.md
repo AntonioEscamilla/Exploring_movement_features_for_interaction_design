@@ -61,24 +61,20 @@ The prototype implements **seven movement-based features** that progress from in
 - PyQtGraph for real-time plotting and 3D visualization
 - PyOpenGL for 3D graphics rendering
 - OpenCV for computer vision operations
-- NumPy for numerical computations
-- SciPy for scientific computing operations
 - Additional dependencies listed in `requirements.txt`
 
 ### Data Processing Pipeline
 The prototype processes pre-captured multi-view scenes that have been through:
 - Multi-camera calibration using ChArUco board patterns
 - AlphaPose body pose estimation with YOLOV3 detection
-- Multi-view correspondence and 3D pose reconstruction
-- Tracking-by-detection with temporal filtering
-- Feature extraction for each of the seven movement-based features
+- 2D body pose estimation on each view
 
 ### Installation
 
 ```bash
 # Clone the repository
 git clone [repository-url]
-cd movement-features-prototype
+cd Exploring_movement_features_for_interaction_design
 
 # Install dependencies
 pip install -r requirements.txt
@@ -88,12 +84,6 @@ pip install dvg-ringbuffer
 ```
 
 ## Usage
-
-### System Setup
-1. Configure multi-camera setup with proper calibration
-2. Ensure cameras are positioned above user height
-3. Calibrate camera system using ChArUco board pattern
-4. Configure room-scale interaction space (recommended: 5m x 4m)
 
 ### Running the Prototype
 ```bash
