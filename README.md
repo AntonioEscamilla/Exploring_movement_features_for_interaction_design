@@ -101,13 +101,56 @@ pip install torch==1.7.1+cpu torchvision==0.8.2+cpu -f https://download.pytorch.
 python main.py
 ```
 
-### Sample Data
+### Sample Data Structure
 
-The repository includes a `data/simple_scene` folder containing all necessary files to run the prototype on a pre-captured and pre-processed scene:
-- Multi-view video recordings
-- Camera calibration information  
-- 2D body pose detections for each view
-- Scene metadata and tracking data
+The repository includes a complete sample dataset in the `data/simple_scene` folder that demonstrates all the prototype's capabilities. This pre-processed scene contains all necessary files to run the movement analysis without requiring additional data capture or processing.
+
+#### Data Folder Organization
+
+```
+data/
+└── simple_scene/
+    ├── detections/
+    │   ├── 01_upb_bbox_tracks_by_frame_225_1950.pkl
+    │   └── pred_multi_centertrack_coco.pkl
+    ├── videos/
+    │   └── [multi-view video recordings]
+    └── calibration.json
+```
+
+#### File Descriptions
+
+**Root Scene Folder** (`data/simple_scene/`):
+- Contains all data for a single multi-view capture session
+- Represents a room-scale environment with multiple people interacting
+- Pre-processed and ready for immediate analysis
+
+**Detection Data** (`detections/`):
+- `01_upb_bbox_tracks_by_frame_225_1950.pkl` - Frame-by-frame bounding box tracking data with temporal associations
+- `pred_multi_centertrack_coco.pkl` - Multi-view 2D pose predictions in COCO format from AlphaPose body estimator
+
+**Video Data** (`videos/`):
+- Multi-view synchronized camera recordings
+- Each video corresponds to a different camera viewpoint
+- Used for visual validation and overlay of pose detection results
+
+**Calibration Data** (`calibration.json`):
+- Camera intrinsic and extrinsic parameters
+- Multi-view geometry relationships
+- Essential for 3D pose reconstruction from 2D detections
+
+#### Data Processing Pipeline
+
+This sample data has been processed through the complete pipeline:
+
+1. **Multi-camera capture** - Synchronized recording from multiple viewpoints
+2. **Camera calibration** - Using ChArUco board patterns for precise geometry
+3. **2D pose detection** - AlphaPose with YOLOV3 applied to each camera view
+4. **Multi-view correspondence** - Matching 2D detections across camera views
+5. **3D reconstruction** - Converting 2D poses to 3D coordinates
+6. **Temporal tracking** - Associating poses across frames for trajectory analysis
+
+The included data allows you to explore all seven movement-based features immediately without requiring your own motion capture setup or preprocessing pipeline.
 
 ### Using the Interface
 
