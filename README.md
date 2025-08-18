@@ -126,7 +126,7 @@ data/
 - Pre-processed and ready for immediate analysis
 
 **Detection Data** (`detections/`):
-- `01_upb_bbox_tracks_by_frame_225_1950.pkl` - Frame-by-frame bounding box tracking data with temporal associations
+- `01_upb_bbox_tracks_by_frame_225_1950.pkl` - Frame-by-frame tracking data with temporal associations
 - `pred_multi_centertrack_coco.pkl` - Multi-view 2D pose predictions in COCO format from AlphaPose body estimator
 
 **Video Data** (`videos/`):
