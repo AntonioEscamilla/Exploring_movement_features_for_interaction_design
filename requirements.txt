@@ -1,1 +1,13 @@
-pip install dvg-ringbuffer
+# PyTorch with CUDA 10.1 support
+# Install with: pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cu101
+torchvision==0.8.2+cu101
+PyQt5==5.9.2
+pyqtgraph==0.11.0
+PyOpenGL==3.1.5
+pymvg==2.0.0
+dvg-ringbuffer==1.0.3
+opencv-python==4.5.4.58
+numpy>=1.19.0
+scipy>=1.6.0
+matplotlib>=3.3.0
