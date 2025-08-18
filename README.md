@@ -55,32 +55,43 @@ The prototype implements **seven movement-based features** that progress from in
 
 ## Technical Specifications
 
-### Software Dependencies
-- Python 3.x
-- PyQt5 for GUI framework
-- PyQtGraph for real-time plotting and 3D visualization
-- PyOpenGL for 3D graphics rendering
-- OpenCV for computer vision operations
-- Additional dependencies listed in `requirements.txt`
-
 ### Data Processing Pipeline
 The prototype processes pre-captured multi-view scenes that have been through:
 - Multi-camera calibration using ChArUco board patterns
 - AlphaPose body pose estimation with YOLOV3 detection
 - 2D body pose estimation on each view
 
+### Software Dependencies
+- **Python 3.8** - Core programming language
+- **PyTorch 1.7.1+cu101** - Deep learning framework with CUDA 10.1 and cuDNN 7.0 support
+- **PyQt5 5.9.2** - GUI framework for the user interface
+- **PyQtGraph 0.11.0** - Real-time plotting and 3D visualization library
+- **PyOpenGL 3.1.5** - 3D graphics rendering engine
+- **OpenCV-Python 4.5.4.58** - Computer vision operations and image processing
+- **pymvg 2.0.0** - Multi-view geometry calculations
+- **dvg-ringbuffer 1.0.3** - Circular buffer operations for real-time data handling
+
 ### Installation
 
+#### Prerequisites
+Ensure you have Python 3.8 installed and CUDA 10.1 with cuDNN 7.0 available on your system.
+
+#### Install Dependencies
 ```bash
 # Clone the repository
 git clone [repository-url]
 cd Exploring_movement_features_for_interaction_design
 
-# Install dependencies
-pip install -r requirements.txt
+# Install PyTorch with CUDA 10.1 support
+pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 
-# Install additional requirement
-pip install dvg-ringbuffer
+# Install remaining dependencies
+pip install -r requirements.txt
+```
+
+**Note**: The PyTorch installation requires CUDA 10.1 and cuDNN 7.0 to be properly installed on your system. If you don't have CUDA support or prefer CPU-only execution, you can install the CPU version instead:
+```bash
+pip install torch==1.7.1+cpu torchvision==0.8.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ## Usage
